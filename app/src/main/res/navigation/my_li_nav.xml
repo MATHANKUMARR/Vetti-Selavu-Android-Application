@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_li_nav"
+    app:startDestination="@id/todayLiFragment">
+
+    <fragment
+        android:id="@+id/todayLiFragment"
+        android:name="com.firstapp.vettiselavu.TodayLiFragment"
+        android:label="fragment_today_li"
+        tools:layout="@layout/fragment_today_li" />
+    <fragment
+        android:id="@+id/weekLiFragment"
+        android:name="com.firstapp.vettiselavu.WeekLiFragment"
+        android:label="fragment_week_li"
+        tools:layout="@layout/fragment_week_li" />
+    <fragment
+        android:id="@+id/monthLiFragment"
+        android:name="com.firstapp.vettiselavu.MonthLiFragment"
+        android:label="fragment_month_li"
+        tools:layout="@layout/fragment_month_li" />
+</navigation>

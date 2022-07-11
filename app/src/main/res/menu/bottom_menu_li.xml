@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/todayLiFragment"
+        android:icon="@drawable/ic_today"
+        android:title="Today" />
+    <item
+        android:id="@+id/weekLiFragment"
+        android:icon="@drawable/ic_week"
+        android:title="Week" />
+    <item
+        android:id="@+id/monthLiFragment"
+        android:icon="@drawable/ic_month"
+        android:title="Month" />
+</menu>
